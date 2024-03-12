@@ -43,7 +43,6 @@ class Calculator:
         def solve(self):
             result = eval(self.entry_value)
             self.equation.set(result)
-
     def show(self, param):
         pass
 root = Tk()
